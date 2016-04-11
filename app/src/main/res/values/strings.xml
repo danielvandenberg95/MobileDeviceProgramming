@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MobileDeviceProgramming</string>
+    <string name="week_1">Week 1</string>
+    <string name="buttonPressCount">Je hebt %d keer op de knop gedrukt!</string>
+    <string name="click">Klik</string>
+    <string name="share">Share</string>
+    <string name="share_using">Deel via…</string>
+    <string name="title_activity_week2a">Week2a</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email_address">Email address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="next">Next</string>
+    <string name="personalData">Personal data:\nName: %1$s\nEmail address:%2$s\nPhone number:%3$s\nsDate of birth:%6$d-%5$d-%4$d</string>
+    <string name="add_birthday">Add birthday</string>
+    <string name="birthday">Birthday</string>
+    <string name="separator">-</string>
+    <string name="maxDay">31</string>
+    <string name="maxMonth">12</string>
+    <string name="week_3">Week 3</string>
+    <string name="week5">Week 5</string>
+</resources>
