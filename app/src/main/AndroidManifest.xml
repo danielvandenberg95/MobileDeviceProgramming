@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.dvandenberg.mobiledeviceprogramming">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:fullBackupContent="true"
@@ -9,35 +11,24 @@
         android:label="@string/week_1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="Week1">
-            <intent-filter>
-                <action android:name="nl.dvandenberg.mobiledeviceprogramming.Week1" />
-            </intent-filter>
+        <activity
+            android:name=".Week1"
+            android:label="@string/title_activity_week1">
         </activity>
         <activity
-            android:name="Week2a"
-            android:label="@string/title_activity_week2a"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="nl.dvandenberg.mobiledeviceprogramming.Week2A" />
-            </intent-filter>
+            android:name=".Week2a"
+            android:label="@string/title_activity_week2a">
         </activity>
         <activity
-            android:name="Week3"
+            android:name=".Week3"
             android:label="@string/week_3">
-            <intent-filter>
-                <action android:name="nl.dvandenberg.mobiledeviceprogramming.Week3" />
-            </intent-filter>
         </activity>
         <activity
-            android:name="Week5"
+            android:name=".Week5"
             android:label="@string/week5">
-            <intent-filter>
-                <action android:name="nl.dvandenberg.mobiledeviceprogramming.Week5" />
-            </intent-filter>
         </activity>
         <activity
-            android:name="LauncherActivity"
+            android:name=".LauncherActivity"
             android:label="Mobile Device Programming">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,6 +36,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Week2b"
+            android:label="@string/week2b" />
+        <activity
+            android:name=".Week4"
+            android:label="@string/week4" />
     </application>
 
 </manifest>

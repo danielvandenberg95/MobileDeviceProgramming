@@ -18,13 +18,19 @@ public class LauncherActivity extends AppCompatActivity implements AdapterView.O
         intentWeek1.setClassName("nl.dvandenberg.mobiledeviceprogramming", Week1.class.getName());
         final Intent intentWeek2a = new Intent();
         intentWeek2a.setClassName("nl.dvandenberg.mobiledeviceprogramming", Week2a.class.getName());
+        final Intent intentWeek2b = new Intent();
+        intentWeek2b.setClassName("nl.dvandenberg.mobiledeviceprogramming", Week2b.class.getName());
         final Intent intentWeek3 = new Intent();
         intentWeek3.setClassName("nl.dvandenberg.mobiledeviceprogramming", Week3.class.getName());
+        final Intent intentWeek4 = new Intent();
+        intentWeek4.setClassName("nl.dvandenberg.mobiledeviceprogramming", Week4.class.getName());
         final Intent intentWeek5 = new Intent();
         intentWeek5.setClassName("nl.dvandenberg.mobiledeviceprogramming", Week5.class.getName());
         intentMap.put("Week 1", intentWeek1);
         intentMap.put("Week 2a", intentWeek2a);
+        intentMap.put("Week 2b", intentWeek2b);
         intentMap.put("Week 3", intentWeek3);
+        intentMap.put("Week 4", intentWeek4);
         intentMap.put("Week 5", intentWeek5);
     }
 
